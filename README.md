@@ -1,10 +1,14 @@
 # MCFunctionPM
-This allows Pocketmine-MP to parse scripts ending in `.mcfunction`.
+This allows to make it possible for Pocketmine-MP to parse scripts that ends with `.mcfunction`.
 
 > [!NOTE]
 > 
-> `.mcfunction` can only run commands that are currently registered and included in Pocketmine commands or the plugin registered commands.
-> This plugin is solely meant to parse `.mcfunction` files in Pocketmine-MP. It is not support for minecraft dedicated server commands support.
+> `.mcfunction` can only execute commands that are currently registered and contained in Pocketmine or the plugin's registered commands.
+> 
+> This plugin is only intended to process `.mcfunction` files in Pocketmine-MP. It does not support all Minecraft's dedicated server commands. Such as `/execute` and so on.
+
+> [!WARNING]
+> If you're unfamiliar with `.mcfunction` script syntax, you can learn more [here](https://learn.microsoft.com/en-us/minecraft/creator/documents/functionsintroduction?view=minecraft-bedrock-stable#setting-up-the-functions-folder).
 
 # Installation
 This is a plug-and-play plugin. All you need to do is the following:
